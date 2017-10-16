@@ -1,5 +1,5 @@
 application: brain
-runtime: python-3.6.1
+runtime: python
 version: 1
 api_version: 1
 threadsafe: true
@@ -7,6 +7,8 @@ libraries:
 - name: django
   version: "1.10.5"
 
+runtime_config:
+    python_version: 3
 
 builtins:
 - django_wsgi: on
