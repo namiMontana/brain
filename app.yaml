@@ -1,5 +1,5 @@
 application: brain
-runtime: python36
+runtime: python-3.6.1
 version: 1
 api_version: 1
 threadsafe: true
