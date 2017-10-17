@@ -1,17 +1,15 @@
-application: brain
+application: brain-183103
 runtime: python
 version: 1
 api_version: 1
 threadsafe: true
-libraries:
-- name: django
-  version: "1.9"
 
 runtime_config:
-    python_version: 3
+  python_version: 3
 
 builtins:
 - django_wsgi: on
+
 handlers:
 - url: .*
   script: brain/urls.py
